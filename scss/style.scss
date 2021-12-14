@@ -1,0 +1,78 @@
+@import "extend";
+@import "variables";
+@import "header";
+@import "footer";
+@import "card";
+@import "mediasQuery";
+@import "animaciones";
+@import "maps";
+@import "mixins";
+
+*{
+    @extend %reset;
+}
+
+
+h2{
+    animation-name: aparecer; 
+    animation-duration: 2.5s;
+}
+
+/*Aca esta el carousel*/
+
+.w-h-carousel{
+    width: 100%;
+    height: 575px;
+    object-fit: cover;
+}
+.div-h2{
+        text-align: center;
+        background-color: map-get($colores,1);
+        width:100%;
+        .h2{
+            color: white;
+            font-style: italic;
+        }
+}
+.boxInfo{
+    margin:30px 0px;
+    width:100%;
+    height:100px;
+    background-color: map-get($colores,color-lila);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow:$shadow;
+    .containerInfo{
+        display: flex;
+        align-items: center;
+        .infoIcon{
+            font-size: 3em;
+            margin-right: 20px;
+        }                           
+    }
+                                
+
+}
+
+.container{
+    .titulo-color{
+        color: map-get($colores,color-azul); 
+    }
+    .preguntas-color{
+        color:map-get($colores,color-azul);
+    }
+}
+
+/* Inicio Pagina contactos*/
+section{
+    .infoContactos{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: map-get($colores,color-lila);
+        color: white;
+    }
+}
+/* Fin Pagina contactos*/

@@ -1,0 +1,17 @@
+@import "variables";
+@import "maps";
+
+header{
+    
+    nav{
+        a{
+            color:map-get($colores,color-lila) !important;
+        }
+     form{
+         .color-buscar{
+             background-color:map-get($colores,color-lila) !important;
+             color: white;
+         }
+     }    
+    }
+}

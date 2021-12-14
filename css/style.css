@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    color: #292727;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sora', sans-serif;
+    }
+ /*========= Inicio header ==========*/
+    .headerTop {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0px;
+        padding: 0px 40px;
+    }
+    .headerButton {
+        cursor:pointer;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .loginText {
+        padding-right: 10px;
+    }
+    .div-h1{
+        text-align: center;
+    }
+    .h1{
+        color:rgb(146, 158, 226);
+        text-transform: uppercase;
+        font-weight:500;
+        font-size: 2em;
+        letter-spacing: 5px;
+        margin-left: 100px;
+        animation-name: aparecer; 
+        animation-duration: 2.5s;
+    }
+        
+    .nav-nav{
+        margin: 20px 0px;
+    }
+    .nav-ul{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    }   
+    .ul-li{
+        list-style-type: none;
+        display: inline-block; 
+        padding: 0px 5px;
+        position: relative;
+    }
+    .a-li{
+        color: rgb(146, 158, 226);
+        font-weight: 200;
+    }
+    .a-li:hover{ 
+        color: rgb(82, 101, 206);
+     }
+     .link-title{
+         text-decoration:none;
+     }
+    /*========= Fin header ==========*/
+
+    /*========= Inicio Main ==========*/
+    
+    .h-100{
+        height: 500px !important;
+        object-fit: cover;
+    }
+    .div-h2{
+        text-align: center;
+        background-color: rgb(146, 158, 226);
+        width:100%;
+    }
+    .h2{
+        color: white;
+        font-style: italic;
+    }
+    .contenedor-de-producto{
+        display: grid;
+        grid-template-columns: repeat( 4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        padding: 25px;
+    }
+    .container-de-producto{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .card-product{
+        margin: 25px;
+        width: 250px;
+        background-color:rgb(146, 158, 226);
+        color: white;
+        overflow: hidden;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        cursor:pointer;
+        font-size: 0.85em;
+        transition-duration:0.4s;
+    }
+    .card-product:hover{
+        background-color:rgb(110, 129, 236);
+        transform: scale(1.2);
+    }
+    .text{
+        padding: 10px;
+    }
+    .button{
+        padding:10px;
+        border-radius:50px;
+        background-color: rgb(146, 158, 226);
+        color: white;
+    }
+    .button:hover{
+        background-color: #8EC5FC;
+    }
+    .img-product{
+        width: 250px;
+        height: 200px;
+    }
+    .price-product{
+        font-weight: 800;
+    }
+    .boxInfo{
+        width:100%;
+        height:100px;
+        background-color: rgb(146, 158, 226);
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow:0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);;
+    }
+    .containerInfo{
+        display: flex;
+        align-items: center;
+    }
+    .infoIcon{
+        font-size: 3em;
+        margin-right: 20px;
+    }
+    /*========= Fin Main ==========*/
+
+    /* Inicio Pagina contactos*/
+    .infoContactos{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    /* Fin Pagina contactos*/
+
+    /* Inicio Preguntas frecuentes*/
+    .container{
+       padding-left:50px;
+       margin-bottom: 50px;
+    }
+     /* Fin Preguntas frecuentes*/
+
+    /*Inicio footer*/
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    }
+    /* Fin footer*/
+   

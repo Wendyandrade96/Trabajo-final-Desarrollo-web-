@@ -1,0 +1,44 @@
+@import "mixins";
+@import "maps";
+
+.btn-color{
+    background-color:map-get($colores,color-lila) !important;
+    color: white;
+}
+
+.p-card{
+    padding-left: 70px;
+}
+
+.card{
+        box-shadow: $shadow;
+        transition: all 0.4s;
+    .row{
+
+        .box__img--card{
+
+            img{
+                height: 240px;
+                width: 200px ;
+                object-fit: cover;
+                    
+            }
+        }
+    }
+}
+.card:hover{
+    background-color:map-get($colores, color-lila);
+    @include transformCard(scale(1.05));
+    color:white;
+    
+}
+.w-h-oferta{
+        height: 240px;
+        width: 100% !important;
+        object-fit: cover;
+}
+.w-h-pava{
+    height: 250px;
+    width: 100% !important;
+    
+}

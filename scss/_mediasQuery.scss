@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+
+
+    .boxInfo{
+        display: block !important;
+        height:250px!important;
+        padding-top: 15px;
+        text-align: center !important;
+        .containerInfo{
+            
+           div{
+               text-align: end;
+            width:40%;
+           }
+           .boxText{
+               text-align: left;
+                width:60%;
+           }
+        }
+    }
+
+    .w-h-carousel{
+        height: 200px!important;
+    }
+    
+    .card{
+        .row{
+            .box__img--card{
+                width:100%;
+
+                img{
+                    width:100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    
+    .w-h-oferta{
+        width: 100%;
+    }
+
+    
+}
+
+  @media (max-width: 576px){
+      main{
+          .container-preguntas{
+              padding: 50px;
+          }
+      }
+  }
