@@ -1,7 +1,7 @@
 {
   "name": "clase-12",
   "version": "1.0.0",
-  "description": "",
+  "description": "Venta de electrodomesticos para el hogar.",
   "main": "index.js",
   "scripts": { 
     "build-css": "node-sass --include-path scss scss/style.scss css/main.css",

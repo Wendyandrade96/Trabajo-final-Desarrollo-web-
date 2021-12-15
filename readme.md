@@ -1,0 +1,2 @@
+Electron es una pagina de venta de electrodomesticos, cuenta con catalogo de todos sus productos, una seccion de ofertas y de preguntas sobre como realizar compras o envios etc.. Y ademas de ventas mayosita. Asi tambien con informacion de donde se encuetra la sucursal y todas las paginas de Electron.
+La pagina fue desarrollada por Wendy Andrade, estudiante de desarrollo web en coderhouse y las herramientas utilizadas para este proyecto son: HTML5, CSS3, BOOTSTRAP, SASS, GIT, NODE.JS.

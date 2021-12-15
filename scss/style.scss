@@ -27,7 +27,7 @@ h2{
 }
 .div-h2{
         text-align: center;
-        background-color: map-get($colores,1);
+        background-color: map-get($colores, color-lila);
         width:100%;
         .h2{
             color: white;
